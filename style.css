@@ -1,29 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(2, 2, 2);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(2, 2, 2);
 }
+
 header {
-    background-color: gi#000000;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
 }
+
 .container {
   background-color: rgb(0, 0, 0);
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
-    color: white
-  
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  color: white;
 }
+
 .main-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgb(255, 255, 255);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
 }
+
 .navbar {
   background-color: black;
   overflow: hidden;
@@ -43,56 +46,100 @@ header {
   color: black;
 }
 
-  .slipknot-imagem { 
-    width: 840px;
-    display: inline-block;
-    position: relative;
-    left: -20px;
+@media only screen and (max-width: 600px) {
+  .container {
+      font-size: 14px;
   }
 
-  .texto-do-slipknot { 
-    color: white;
+  .main-content {
+      font-size: 14px;
   }
-.discografia {
-  background-color: rgb(0, 0, 0);
+
+  .texto-do-slipknot {
+      font-size: 14px;
+  }
+
+  .discografia {
+      font-size: 14px;
+  }
+}
+.slipknot-imagem {
   max-width: 800px;
-  margin: 20px auto;
-  padding: 0 20px;
-  color: white
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
+
 .corey {
-  width: 800px;
-  height: 700px;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
-.jim{
-  width: 800px;
-  height: 700px;
+
+.jim {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
-.mick { 
-  width: 800px;
-  height: 700px;
+
+.mick {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
+
 .sid {
-  width: 800px;
-  height: 700px;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
+
 .clown {
-  width: 800px;
-  height: 700px;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
+
 .craig {
-  width: 800px;
-  height: 700px;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
+
 .jay {
-  width: 800px;
-  height: 700px;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
-.alessandro { 
-  width: 800px;
-  height: 700px;
+
+.alessandro {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
-.jay-2 { 
-  width: 800px;
-  height: 700px;
+
+.jay-2 {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
