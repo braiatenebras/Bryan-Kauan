@@ -187,6 +187,82 @@ text-align: center;
       margin-left: 0;
   }
 }
+.carousel {
+  display: block;
+  position: relative;
+}
+
+.carousel input[type="radio"] {
+  display: none;
+}
+
+.carousel__items {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel__item {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+}
+
+.carousel__prev, .carousel__next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2em;
+  height: 2em;
+}
+
+.carousel__prev {
+  left: 0.5em;
+}
+
+.carousel__next {
+  right: 0.5em;
+}
+
+.carousel__prev label, .carousel__next label {
+  background-color: #080808;
+  display: block;
+  opacity: 0.5;
+  transition: opacity 0.15s;
+}
+
+.carousel__prev:hover label, .carousel__next:hover label {
+  opacity: 1;
+}
+
+.carousel__nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.carousel__indicator {
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #b10000;
+  width: 1em;
+  height: 1em;
+  margin: 0 0.5em;
+}
+
+.carousel__indicator:hover {
+  background-color: #db0808;
+}
+.mascara-corey,.mascara-corey2,.mascara-jim,.mascara-jim2,.mascara-mick,.mascara-mick2,.mascara-sid,.mascara-sid2,.mascara-shawn,.mascara-shawn2,.mascara-craig,.mascara-craig2,
+.mascara-jay,.mascara-jay2,.mascara-alessandro,.mascara-alessandro2 {
+  
+  width: 100%;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 
   
 
