@@ -42,7 +42,7 @@ header {
 }
 
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #ffffff;
   color: black;
 }
 
@@ -143,3 +143,10 @@ header {
   margin: 20px auto;
   display: block;
 }
+.direitos, .minha-foto {
+border-radius: 50%;
+text-align: center;
+height: 60px;
+font-size: small;
+}
+
