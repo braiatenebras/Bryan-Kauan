@@ -1,0 +1,286 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(2, 2, 2);
+  text-align: center;
+
+}
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(0, 0, 0);
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  color: white;
+  
+
+}
+
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+      font-size: 14px;
+  }
+
+  .main-content {
+      font-size: 14px;
+  }
+
+  .texto-do-slipknot {
+      font-size: 14px;
+  }
+
+  .discografia {
+      font-size: 14px;
+  }
+}
+.slipknot-imagem {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.corey {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.jim {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  
+}
+
+.mick {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.sid {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.clown {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.craig {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.jay {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.alessandro {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.jay-2 {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+.direitos, .minha-foto {
+border-radius: 50%;
+text-align: center;
+height: 60px;
+font-size: small;
+}
+.curiosidades-slipknot { 
+text-align: center;
+}
+.link-insta {
+  color: #fff;
+}
+.slipknot-curiosidades-imagem {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.musica-favorita video {
+  width: 1000px;
+  height: 600px;
+  margin-left: -100px; 
+}
+
+@media screen and (min-width: 768px) {
+  .musica-favorita video {
+      width: 1200px;
+      margin-left: -200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .musica-favorita video {
+      width: 100%;
+      margin-left: 0;
+  }
+}
+.carousel {
+  display: block;
+  position: relative;
+}
+
+.carousel input[type="radio"] {
+  display: none;
+}
+
+.carousel__items {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel__item {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+}
+
+.carousel__prev, .carousel__next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2em;
+  height: 2em;
+}
+
+.carousel__prev {
+  left: 0.5em;
+}
+
+.carousel__next {
+  right: 0.5em;
+}
+
+.carousel__prev label, .carousel__next label {
+  background-color: #080808;
+  display: block;
+  opacity: 0.5;
+  transition: opacity 0.15s;
+}
+
+.carousel__prev:hover label, .carousel__next:hover label {
+  opacity: 1;
+}
+
+.carousel__nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.carousel__indicator {
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #b10000;
+  width: 1em;
+  height: 1em;
+  margin: 0 0.5em;
+}
+
+.carousel__indicator:hover {
+  background-color: #db0808;
+}
+.mascara-corey,.mascara-corey2,.mascara-jim,.mascara-jim2,.mascara-mick,.mascara-mick2,.mascara-sid,.mascara-sid2,.mascara-shawn,.mascara-shawn2,.mascara-craig,.mascara-craig2,
+.mascara-jay,.mascara-jay2,.mascara-alessandro,.mascara-alessandro2 {
+  
+  width: 100%;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.dead-memories {
+  position: relative;
+  padding-bottom: 56.25%; /* Proporção de 16:9 (9 dividido por 16) */
+  height: 0;
+  overflow: hidden;
+}
+
+.dead-memories iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+
+
+  
+
+
+
