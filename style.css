@@ -160,4 +160,35 @@ text-align: center;
 .link-insta {
   color: #fff;
 }
+.slipknot-curiosidades-imagem {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.musica-favorita video {
+  width: 1000px;
+  height: 600px;
+  margin-left: -100px; 
+}
+
+@media screen and (min-width: 768px) {
+  .musica-favorita video {
+      width: 1200px;
+      margin-left: -200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .musica-favorita video {
+      width: 100%;
+      margin-left: 0;
+  }
+}
+
+  
+
+
 
