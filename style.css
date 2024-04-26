@@ -279,11 +279,14 @@ text-align: center;
   overflow: hidden;
   text-align: center;
 }
+form {
+  margin-top: 20px;
+}
+
 label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
-  text-align: center;
 }
 
 input[type="text"],
@@ -293,9 +296,9 @@ textarea {
   padding: 8px;
   margin-bottom: 10px;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border: 1px solid #555;
   border-radius: 3px;
-  text-align: center;
+  background-color: #444;
 }
 
 textarea {
@@ -303,15 +306,17 @@ textarea {
 }
 
 input[type="submit"] {
+  background-color: #ffffff;
   color: #000000;
   border: none;
   padding: 10px 20px;
+  cursor: pointer;
   border-radius: 3px;
-  text-align: center;
 }
 
-
-
+input[type="submit"]:hover {
+  background-color: #9c1c2a;
+ }
 
   
 
